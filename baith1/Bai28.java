@@ -1,0 +1,27 @@
+package Bai1;
+
+public class Bai28 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int h = 4; // độ cao tam giác
+
+        for (int i = 1; i <= h; i++) {
+
+            // in khoảng trắng
+            for (int j = 1; j <= h - i; j++) {
+                System.out.print(" ");
+            }
+
+            // in dấu *
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+
+            // xuống dòng
+            System.out.println();
+        }
+
+	}
+
+}
