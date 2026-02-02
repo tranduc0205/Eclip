@@ -1,0 +1,15 @@
+package Bai1;
+
+public class Bai02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=10;
+	    int tong=0;
+	    for(int i=1;i<=n;i++) {
+	    	tong += i*i ;
+	    }
+	    System.out.print("Tong = "+tong);
+	}
+
+}
